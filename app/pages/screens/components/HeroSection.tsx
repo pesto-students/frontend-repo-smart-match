@@ -23,7 +23,7 @@ const HeroSection: React.FC = () => {
           <div className="w-full md:w-auto mt-16 md:mb-0 mr-20">
             <div className="text-black font-bold mb-[60px]">
               <span className="block text-[64px] leading-[1] font-roboto">
-                Hire from India's largest talent pool.
+                Hire from India&apos;s largest talent pool.
               </span>
             </div>
             <div className="flex flex-col sm:flex-row mb-[40px] space-y-4 sm:space-y-0 sm:space-x-4">
