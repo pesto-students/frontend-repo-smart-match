@@ -1,0 +1,104 @@
+.job-list {
+    flex: 1;
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .job-list h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .job-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .job-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .job-post-date {
+    font-size: 12px;
+    color: #999;
+  }
+  
+  .job-company {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .job-description {
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 15px;
+  }
+  
+  .view-more {
+    color: #007bff;
+    background: none;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .job-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .tag {
+    background-color: #e0f7fa;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 12px;
+    color: #333;
+  }
+  
+  .easy-apply {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .easy-apply:hover {
+    background-color: #444;
+  }
+  
+  .search-jobs{
+    color: rgb(24, 103, 80)
+  }
+
+  .notification{
+    color: white; /* Text color */
+    border-radius: 50%; /* Makes the badge round */
+    padding: 5px 8px; /* Adjust padding for size */
+    font-size: 12px; /* Font size of the number */
+    font-weight: bold; /* Bold font */
+    display: inline-block;
+    min-width: 20px; /* Minimum width to ensure it's round with single digit */
+    text-align: center;
+    line-height: 1; /* Adjust line height */
+    vertical-align: middle;
+    background: #008a00;
+  }

@@ -1,0 +1,18 @@
+.filters {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    z-index:9999;
+  }
+  
+  @media (max-width: 768px) {
+    .filters {
+     display: none;
+    }
+  }
+
+  @media only screen and (min-width: 180px) {
+    .filters {
+      display: block;
+     }
+}
